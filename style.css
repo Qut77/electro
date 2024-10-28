@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header_wrapper{
+    background-color: #EAEAEA;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+
+}
+header a{
+    font-family: "Inter";
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+header nav a{
+    font-size: 20px;
+    margin-left: 47px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    padding: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+h1{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 400;
+    margin: 50px 0;
+}
+.content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.cell{
+    border: 2px solid #DEF1F7;
+    padding: 22px 25px;
+    border-radius: 5px;
+    width: 32%;
+    
+}
+.cell img{
+    width: 100%;
+}
+.cell h2{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.cell p, .shop_cell h2, .shop_cell p, .lk_text h2, .lk_text p{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #DEF1F7;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+}
+.shop_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+.shop_cell{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    border-bottom: 3px solid #DEF1F7;
+}
+.lk_content{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #DEF1F7;
+    border-radius: 5px;
+}
+.lk_text{
+    margin-left: 50px;
+}
+form{
+    width: 100%;
+    max-width: 1000px;
+    background-color: #DEF1F7;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+input{
+    padding: 20px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+}
+.form_btn{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #000;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    width: 30%;
+    cursor: pointer;
+}
